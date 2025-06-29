@@ -1,0 +1,26 @@
+# Core dependencies
+pydantic-ai==0.0.14
+pydantic==2.10.3
+fastapi==0.115.6
+uvicorn==0.32.1
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# LLM providers
+openai==1.84
+anthropic==0.40.0
+google-generativeai==0.8.3
+
+# LiveKit integration
+livekit
+livekit-agents[deepgram,openai,cartesia,silero,turn-detector,elevenlabs,google,gladia]==1.1.0
+livekit-plugins-noise-cancellation~=0.2
+
+# Additional utilities
+python-multipart==0.0.12
+websockets==13.1
+aiofiles==24.1.0
+loguru==0.7.2
+
+honcho==2.0.0
+#concurrently==7.6.0
